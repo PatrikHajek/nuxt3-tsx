@@ -1,4 +1,6 @@
-<script lang="tsx">
+<!-- <script lang="tsx">
+import TestList from './components/TestList'
+
 export default defineComponent({
   setup() {
     const name = ref('bob')
@@ -6,9 +8,16 @@ export default defineComponent({
     return () => (
       <div>
         <h1>Hello World</h1>
-        <TestList title={name.value} />
+        {/* <TestList title={name.value} /> */}
       </div>
     )
-  }
+  },
 })
-</script>
+</script> -->
+
+<template>
+  <div>
+    <h1>Hello World</h1>
+    <!-- <TestList title="{name.value}" /> -->
+  </div>
+</template>
