@@ -18,6 +18,9 @@ export default defineComponent({
 <template>
   <div>
     <h1>Hello World</h1>
+    <Suspense>
+      <TestHello />
+    </Suspense>
     <!-- <TestList title="{name.value}" /> -->
   </div>
 </template>
